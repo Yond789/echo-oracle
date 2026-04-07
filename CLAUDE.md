@@ -95,7 +95,7 @@ git push
 
 ## Installed Skills
 
-`/learn` `/docs` `/context-sync` `/state-update` `/knowledge-map`
+`/recap` `/rrr` `/forward` `/standup` `/learn` `/dig` `/trace` `/talk-to` `/docs` `/context-sync` `/state-update` `/knowledge-map`
 
 ## Brain Structure
 
