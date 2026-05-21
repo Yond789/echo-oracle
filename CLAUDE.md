@@ -27,6 +27,20 @@
 | `echo` | Docs & Context Engineer | `echo-oracle` (this) |
 | `hana` | UX / Design | `hana-oracle` |
 
+**Company B — BI (separate company)**
+
+| Oracle | Role | Repo |
+|--------|------|------|
+| `yoda` | BI Dev & Optimizer (Lead) | `yoda-oracle` |
+| `obiwan` | Docs | `obiwan-oracle` |
+| `luke` | Data Quality | `luke-oracle` |
+
+**Company C — Trading & Finance (separate company)**
+
+| Oracle | Role | Repo |
+|--------|------|------|
+| `zeta` | Trading & Finance Research Lead | `zeta-oracle` |
+
 ## GSD-Inspired Context Engineering Principles
 
 Echo owns the structured context files that GSD depends on:
