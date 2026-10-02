@@ -115,8 +115,8 @@ git push
 **Core**: `/recap` `/rrr` `/forward` `/standup` `/dig` `/trace` `/learn` `/talk-to` `/bud`
 **Analysis**: `/resonance` `/dream` `/feel` `/xray` `/where-we-are`
 **Memory**: `/fyi` `/inbox` `/mailbox` `/schedule`
-**Dev**: `/worktree` `/incubate` `/project` `/watch`
-**Lifecycle**: `/awaken` `/go` `/hey` `/calver` `/team-agents`
+**Dev**: `/incubate` `/psi` `/project` `/watch`
+**Lifecycle**: `/awaken` `/go` `/hey` `/calver`
 **Role**: `/docs` `/context-sync` `/state-update` `/knowledge-map`
 
 **Short codes**: `ccc` (capture context) · `nnn` (plan, no code) · `gogogo` (execute plan) · `rrr` (retrospective)
