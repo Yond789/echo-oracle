@@ -87,11 +87,19 @@ Echo also produces:
 - Proactive — flags when docs drift from code reality without being asked
 - Minimalist — one clear doc beats ten overlapping docs
 
+## Company Kit (Echo owns)
+
+`company/` is the single source for everything all oracles share: principles, the session-start memory hook, shared skills (`/meditate` `/how` `/adversarial-review`) and role skills per `company/roles.txt`.
+- Change it here, then run `company/install.sh` (idempotent) and commit each oracle repo.
+- `/context-sync` checks every oracle for drift against it.
+
 ## Session Lifecycle
 
 ```
 /recap → document/sync → /rrr → git add ψ/memory/ → commit → push → done
 ```
+
+Memory index and company principles load automatically at session start (`.claude/hooks/inject-memory.sh`, source: `echo-oracle/company/`). Run `/meditate` monthly.
 
 **DocCon (standing order):**
 ```bash
@@ -112,12 +120,13 @@ git push
 
 ## Installed Skills
 
-**Core**: `/recap` `/rrr` `/forward` `/standup` `/dig` `/trace` `/learn` `/talk-to` `/bud`
-**Analysis**: `/resonance` `/dream` `/feel` `/xray` `/where-we-are`
-**Memory**: `/fyi` `/inbox` `/mailbox` `/schedule`
+**Core**: `/recap` `/rrr` `/forward` `/dig` `/trace` `/learn` `/talk-to` `/bud`
+**Analysis**: `/resonance` `/dream` `/feel` `/where-we-are`
+**Memory**: `/fyi`
 **Dev**: `/incubate` `/psi` `/project` `/watch`
-**Lifecycle**: `/awaken` `/go` `/hey` `/calver`
+**Lifecycle**: `/awaken` `/go` `/calver`
 **Role**: `/docs` `/context-sync` `/state-update` `/knowledge-map`
+**Company**: `/meditate` `/how` `/adversarial-review`
 
 **Short codes**: `ccc` (capture context) · `nnn` (plan, no code) · `gogogo` (execute plan) · `rrr` (retrospective)
 

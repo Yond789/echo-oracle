@@ -1,0 +1,18 @@
+# oracle: role skills (from role-skills/). Shared skills and hooks go to every oracle listed here.
+fuku:
+yumi:
+haru:
+yone:
+devops:
+kira: verify test-plan nyquist security-audit
+sora: research plan roadmap stack-decision
+rei: threat-model owasp-check dep-scan security-audit pentest-review
+echo: docs context-sync state-update knowledge-map
+hana: ux-review wireframe design-critique user-story a11y-check
+yoda:
+obiwan:
+luke:
+zeta: research
+alpha: research
+omega: research
+sigma: research
